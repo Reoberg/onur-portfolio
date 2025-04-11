@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Portfolio Website",
+      "description": "My personal portfolio site built with Next.js and Tailwind CSS.",
+      "link": "https://github.com/Reoberg/onur-portfolio"
+    },
+    {
+      "title": "Lottery Web App",
+      "description": "A Lottery web-app for job-application challenge.",
+      "link": "https://github.com/Reoberg/dubber-challenge"
+    },
+    {
+      "title": "Weather App",
+      "description": "A simple weather app using OpenWeather API.",
+      "link": "https://github.com/onuroziskender/weather-app"
+    }
+]
+  
