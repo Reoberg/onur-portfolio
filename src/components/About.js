@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import {FaArrowDown} from "react-icons/fa";
 import {
   SiJavascript,
   SiReact,
@@ -9,6 +10,11 @@ import {
   SiMongodb,
   SiDocker,
   SiAmazonwebservices,
+  SiPython,
+  SiGooglecloud,
+  SiKubernetes,
+  SiVuedotjs,
+  SiUnity
 } from "react-icons/si";
 
 const skills = [
@@ -21,6 +27,12 @@ const skills = [
   { icon: <SiGithub />, name: "GitHub" },
   { icon: <SiDocker />, name: "Docker" },
   { icon: <SiAmazonwebservices />, name: "AWS" },
+  { icon: <SiGooglecloud />, name: "GCP" },
+  { icon: <SiPython />, name: "Python" },
+  { icon: <SiKubernetes />, name: "Kubernetes" },
+  { icon: <SiVuedotjs />, name: "Vue.js" },
+  { icon: <SiUnity />, name: "Unity" },
+
 ];
 
 export default function About() {
@@ -29,14 +41,22 @@ export default function About() {
   return (
     <motion.section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white px-4"
+      className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white px-4 scroll-mt-12 relative"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
+      viewport={{ once: true, amount: 0.3 }}
     >
+        <div className="w-full flex justify-center mb-8">
+          <img
+            src="/images/about.svg"
+            alt="About illustration"
+            className="w-64 md:w-80 h-auto"
+          />
+        </div>
       <div className="max-w-2xl text-center mb-10">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-lg leading-relaxed text-gray-300 text-justify max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl leading-relaxed text-gray-300 text-justify max-w-3xl mx-auto">
           {text}
         </p>
       </div>
@@ -50,6 +70,9 @@ export default function About() {
             </div>
           ))}
         </div>
+        <a href="#portfolio" className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white text-3xl hover:text-blue-400 transition animate-bounce">
+          <FaArrowDown />    
+        </a>
       </div>
     </motion.section>
   );

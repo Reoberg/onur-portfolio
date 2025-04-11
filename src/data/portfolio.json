@@ -13,6 +13,11 @@
       "title": "Weather App",
       "description": "A simple weather app using OpenWeather API.",
       "link": "https://github.com/onuroziskender/weather-app"
+    },
+    {
+      "title": "Multi-cloud Deployer in Kubernetes",
+      "description": "A multi-cloud deployer in Kubernetes using Terraform.",
+      "link": "https://github.com/onuroziskender/weather-app"
     }
 ]
   

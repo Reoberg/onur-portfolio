@@ -21,9 +21,16 @@ const letter = {
 
 export default function Hero() {
   const text = "Hello, I am Onur... ";
-  const text2 = "Software Developer";
+
   return (
     <div className="text-center text-white px-4">
+        <div className="w-full flex justify-center mb-8">
+          <img
+            src="/images/hero.svg"
+            alt="Coding illustration"
+            className="w-64 md:w-80 h-auto"
+          />
+        </div>
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-6"
         variants={sentence}
@@ -37,7 +44,7 @@ export default function Hero() {
         ))}
       </motion.h1>
        {/* Role Title: Software Developer */}
-       <h2 className="text-2xl md:text-4xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+       <h2 className="text-4xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
         Software Developer
       </h2>
         <motion.p
