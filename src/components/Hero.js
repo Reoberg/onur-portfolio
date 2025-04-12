@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
+import ScrollArrow from "./ScrollArrow";
 
 
 
@@ -79,13 +80,7 @@ export default function Hero() {
           <FaEnvelope />
         </a>
       </div>
-
-      <a
-      href="#about"
-      className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white text-3xl hover:text-blue-400 transition animate-bounce"
-      >
-         <FaArrowDown />    
-      </a>
+      <ScrollArrow to="about" />
     </div>
   );
 }

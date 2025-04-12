@@ -10,14 +10,25 @@
       "link": "https://github.com/Reoberg/dubber-challenge"
     },
     {
-      "title": "Weather App",
-      "description": "A simple weather app using OpenWeather API.",
-      "link": "https://github.com/onuroziskender/weather-app"
+      "title": "Emotion Analyzer in Videos",
+      "description": "A python app to install videos, log and analyze emotions in them.",
+      "link": "https://github.com/Reoberg/emotional-analyzer"
     },
     {
       "title": "Multi-cloud Deployer in Kubernetes",
       "description": "A multi-cloud deployer in Kubernetes using Terraform.",
-      "link": "https://github.com/onuroziskender/weather-app"
+      "link": "https://www.dropbox.com/scl/fi/lyscly5z9sact7kphnggg/MSc-Advance-Computing-Project-Onur-Oziskender.pdf?rlkey=8r84vz9y4ds8z209x3bc79w16&st=9tdta3q9&dl=0"
+    },
+    {
+      "title": " 16+ Hyper Casual Games with Unity",
+      "description": "Developed 16+ hyper casual games with Unity.",
+      "link": "https://www.linkedin.com/in/onuroziskender/"
+    },
+    {
+      "title": " Piazza (Netflix Like) Database Design",
+      "description": "Designed a Netflix like database.",
+      "link": "https://www.dropbox.com/scl/fi/jbg4ij19nqp55q0ye41wt/Big-Data-Analytics-Project-2.docx?rlkey=csz0khf5vqlpit0w9dkxdq0pj&st=e1lyp49r&dl=0"
     }
+
 ]
   

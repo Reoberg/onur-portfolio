@@ -4,7 +4,7 @@ export default function CV() {
   return (
     <motion.section
       id="cv"
-      className="min-h-screen bg-gray-900 text-white px-6 py-20 scroll-mt-12"
+      className="min-h-screen bg-gray-900 text-white px-6 py-20 scroll-mt-12 relative"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -23,7 +23,7 @@ export default function CV() {
           />
         </div>
         <a
-          href="/cv/onur-oziskender-cv.pdf"
+          href="https://www.dropbox.com/scl/fi/eopcmihqze6merlhu72r7/Onur-Oziskender-CV.pdf?rlkey=75jivyiw9npay48u4sbzrnngx&e=1&st=r1vgddrn&dl=0"
           download
           className="inline-block bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition"
         >

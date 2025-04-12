@@ -16,6 +16,7 @@ import {
   SiVuedotjs,
   SiUnity
 } from "react-icons/si";
+import ScrollArrow from "./ScrollArrow";
 
 const skills = [
   { icon: <SiJavascript />, name: "JavaScript" },
@@ -70,9 +71,7 @@ export default function About() {
             </div>
           ))}
         </div>
-        <a href="#portfolio" className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white text-3xl hover:text-blue-400 transition animate-bounce">
-          <FaArrowDown />    
-        </a>
+       <ScrollArrow to="portfolio" />
       </div>
     </motion.section>
   );
